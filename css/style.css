@@ -69,6 +69,20 @@
     border: 2px dashed black;
 }
 
+.debug .foot-col{
+    height: 550px;
+    background-color: #20b2aa;
+    flex-grow: 1;
+    border: 2px dashed white;
+}
+
+.debug #foot-col-double{
+    height: 550px;
+    background-color: #f08080;
+    flex-grow: 2;
+    border: 2px dashed black;
+}
+
 /*--------------
     HEAD
  --------------*/
@@ -103,3 +117,11 @@ main section:nth-child(even){
  /*--------------
     FOOTER
  --------------*/
+ footer{
+    background-color: #23272a;
+ }
+
+.container .footer-top{
+    display: flex;
+    padding: 10px 0 50px 0;
+}
