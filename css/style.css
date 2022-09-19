@@ -35,6 +35,38 @@
     width: 900px;
     height: 400px;
     margin: auto;
+    border: 2px dashed black;
+}
+
+.debug .col{
+    height: 500px;
+}
+
+.debug #col-big{
+    background-color: #1e90ff; 
+    width: 70%;
+    border: 2px dashed black;
+}
+
+.debug #col-small{
+    background-color: #ffc0cb;
+    width: 30%;
+    border: 2px dashed black;
+}
+
+.debug .last-section{
+    height: 900px;
+    background-color: #228b22;
+}
+
+.debug #last-section-small{
+    width: 30%;
+    border: 2px dashed black;
+}
+
+.debug #last-section-big{
+    width: 70%;
+    border: 2px dashed black;
 }
 
 /*--------------
@@ -55,9 +87,18 @@ header{
 .header-bottom{
     padding: 50px;
 }
+
  /*--------------
     MAIN
  --------------*/
+.container .row{
+    display: flex;
+    padding: 50px 0;
+}
+
+main section:nth-child(even){
+    background-color: #d3d3d3;
+}
 
  /*--------------
     FOOTER
