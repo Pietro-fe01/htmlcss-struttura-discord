@@ -78,7 +78,6 @@
 .debug #foot-col-double{
     height: 550px;
     background-color: #f08080;
-    flex-grow: 2;
     border: 2px dashed black;
 }
 
@@ -97,11 +96,28 @@ header{
 
 header .header-top{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5px;
     margin-bottom: 15px;
 }
+
+header .header-top > * {
+    width: calc(100%/3);
+    height: 50px;
+    border:2px dashed black;
+    line-height:50px;
+  }
+  
+  header .logo{
+    padding-left:10px;
+  }
+  
+  header .main-nav{
+    text-align:center;
+  }
+  
+  header .login{
+    text-align:right;
+    padding-right:10px;
+  }
 
 header .header-bottom{
     padding: 50px;
@@ -133,6 +149,10 @@ footer .footer-top{
 
 footer .foot-col-top{
     flex-grow: 1;
+}
+
+footer #foot-col-double{
+    flex-grow: 2;
 }
 
 footer .footer-divisor{
