@@ -6,18 +6,55 @@
     margin: 0;
     padding: 0;
 }
+
 /*--------------
     COMMON
  --------------*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 
  /*--------------
     DEBUG
  --------------*/
+.debug header{
+    background-color: #add8e6;
+}
+
+.debug .header-top{
+    background-color: #daa520;
+}
+
+.debug .header-bottom{
+    background-color: #00008b;
+}
+
+.debug .cont-bot{
+    background-color: #ee82ee;
+    width: 900px;
+    height: 400px;
+    margin: auto;
+}
 
 /*--------------
     HEAD
  --------------*/
+header{
+    padding-top: 15px;
+}
 
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    margin-bottom: 15px;
+}
+
+.header-bottom{
+    padding: 50px;
+}
  /*--------------
     MAIN
  --------------*/
